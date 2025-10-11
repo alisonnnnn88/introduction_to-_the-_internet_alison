@@ -14,7 +14,7 @@
 - ✅ 4. Markdown 支援方式變更
 - → 修改 renderMarkdownLike 函式
 - 原本： 自行拆行渲染 div / 後來： 使用 react-markdown 套件處理 markdown
-- <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e" />
+- <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e" />
 - 目的：讓 AI 回覆能支援 markdown（例如粗體、標題、列表等），改善訊息顯示效果。
 - ✅ 5. 根據4.，引入新套件
 - import ReactMarkdown from 'react-markdown';
