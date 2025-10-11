@@ -2,5 +2,52 @@
 - 授課老師：蔡芸琤
 - hw 1  [my website](https://alisonnnnn88.github.io/introduction_to-_the-_internet_alison/)
 - hw 2  [解說影片](https://youtu.be/0LIIIj9rs88)  | [AItest.tsx](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.tsx)
-        我更動了提示文字及關鍵句，讓使用者可以知道怎麼問這個健康助手，也可以知道這個模型主要是用來問健康相關問題及建議。
-        而我也安裝了ReactMarkdown，讓這個AI輸出的建議可以用表情符號及粗體文字標示重點，不用逐字看很多字的建議。
+- ✅ 1. 函式名稱變更
+- 原本： AItest / 後來： HealthAssistant
+- 目的：將聊天機器人改為有主題性的「健康助手」，功能定位更清楚。
+- ✅ 2. starter 預設提示變更
+- 原本： '嗨！幫我測試一下台北旅遊的一日行程～' / 後來： '嗨！我今天需要記得喝水和運動～'
+- 目的：修改成與健康主題相關的開場訊息，強化角色定位。
+- ✅ 3. 初始訊息（AI歡迎語）變更
+- 原本：'👋 這裡是 Gemini 小幫手，有什麼想聊的？' / 後來：'👋 這裡是健康助手，我會幫你提醒喝水、運動等！'
+- 目的：改成與「健康提醒」相關的歡迎語，更讓使用者知道這是一個專為健康設計的AI助手。
+- ✅ 4. Markdown 支援方式變更
+- → 修改 renderMarkdownLike 函式
+- 原本： 自行拆行渲染 div / 後來： 使用 react-markdown 套件處理 markdown
+- // 原本：自行用 div 包每行
+- function renderMarkdownLike(text: string) {
+-   const lines = text.split(/\n/);
+-   return (
+-     <>
+-       {lines.map((ln, i) => (
+-         <div key={i} style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{ln}</div>
+-       ))}
+-     </>
+-   );
+- }
+- // 後來：使用 react-markdown 套件
+- function renderMarkdownLike(text: string) {
+-   return (
+-     <div style={{ fontSize: 14, lineHeight: 1.6 }}>
+-       <ReactMarkdown>{text}</ReactMarkdown>
+-     </div>
+-   );
+- }
+- 目的：讓 AI 回覆能支援 markdown（例如粗體、標題、列表等），改善訊息顯示效果。
+- ✅ 5. 根據4.，引入新套件
+- import ReactMarkdown from 'react-markdown';
+- ✅ 6. 提示句按鈕內容修改
+- 原本：['今天台北有什麼免費展覽？', '幫我把這段英文翻成中文：Hello from Taipei!', '寫一首關於捷運的短詩'] / 後來：['今天需要喝水提醒', '請建議我一天三餐', '幫我安排一個簡單的運動計劃']
+- 目的：更貼近健康主題，如：喝水、飲食、運動，也更讓使用者知道怎麼問AI健康助手。
+- ✅ 7. 樣式變更：加入 emoji 字型
+- wrap: { 
+-   display: 'grid', 
+-   placeItems: 'start', 
+-   padding: 16, 
+-   fontFamily: `'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif` 
+- }
+- 目的：使用表情符號清楚標示重點文字，讓使用者快速抓到重點建議。
+- ✅ 8. 頁面標題修改
+- // 原本：<div style={styles.header}>Gemini Chat（直連 SDK，不經 proxy）</div>
+- // 後來：<div style={styles.header}>健康助手（Gemini API）</div>
+- 目的：在網頁最上面清楚標示AI助手名稱（Gemini Chat → 健康助手）。
