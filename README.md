@@ -14,7 +14,7 @@
 - ✅ 4. Markdown 支援方式變更
 - → 修改 renderMarkdownLike 函式
 - 原本： 自行拆行渲染 div / 後來： 使用 react-markdown 套件處理 markdown
-- <img width="1317" height="858" alt="image" src="https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e" />
+- <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e" />
 - 目的：讓 AI 回覆能支援 markdown（例如粗體、標題、列表等），改善訊息顯示效果。
 - ✅ 5. 根據4.，引入新套件
 - import ReactMarkdown from 'react-markdown';
@@ -22,12 +22,7 @@
 - 原本：['今天台北有什麼免費展覽？', '幫我把這段英文翻成中文：Hello from Taipei!', '寫一首關於捷運的短詩'] / 後來：['今天需要喝水提醒', '請建議我一天三餐', '幫我安排一個簡單的運動計劃']
 - 目的：更貼近健康主題，如：喝水、飲食、運動，也更讓使用者知道怎麼問AI健康助手。
 - ✅ 7. 樣式變更：加入 emoji 字型
-- wrap: { 
--   display: 'grid', 
--   placeItems: 'start', 
--   padding: 16, 
--   fontFamily: `'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif` 
-- }
+- <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/c49e30b6-a691-4b00-a5e4-e96a476f8402" />
 - 目的：使用表情符號清楚標示重點文字，讓使用者快速抓到重點建議。
 - ✅ 8. 頁面標題修改
 - // 原本：<div style={styles.header}>Gemini Chat（直連 SDK，不經 proxy）</div>
