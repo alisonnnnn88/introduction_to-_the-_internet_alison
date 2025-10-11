@@ -25,5 +25,5 @@
 - <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/c49e30b6-a691-4b00-a5e4-e96a476f8402" />
 - 目的：使用表情符號清楚標示重點文字，讓使用者快速抓到重點建議。
 - ✅ 8. 頁面標題修改
-- 原本：<div style={styles.header}>Gemini Chat（直連 SDK，不經 proxy）</div> / 後來：<div style={styles.header}>健康助手（Gemini API）</div>
+- 原本：Gemini Chat（直連 SDK，不經 proxy）/ 後來：健康助手（Gemini API）
 - 目的：在網頁最上面清楚標示AI助手名稱（Gemini Chat → 健康助手）。
