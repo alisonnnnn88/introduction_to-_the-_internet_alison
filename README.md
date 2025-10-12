@@ -25,7 +25,7 @@
   → 修改 `renderMarkdownLike` 函式  
   原本：自行拆行渲染 div  
   後來：使用 `react-markdown` 套件處理 Markdown  
-  ![image](https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e)  
+  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e" />
   **目的**：讓 AI 回覆能支援 Markdown（例如粗體、標題、條列式等），改善訊息顯示效果。
 
 - ✅ **5. 根據第 4 點，引入新套件**  
@@ -44,7 +44,7 @@
   **目的**：更貼近健康主題，也更讓使用者知道怎麼問 AI 健康助手。
 
 - ✅ **7. 樣式變更：加入 emoji 字型**  
-  ![image](https://github.com/user-attachments/assets/c49e30b6-a691-4b00-a5e4-e96a476f8402)  
+  <img width="600" height="150" alt="image" src="https://github.com/user-attachments/assets/c49e30b6-a691-4b00-a5e4-e96a476f8402" />  
   **目的**：使用表情符號清楚標示重點文字，讓使用者快速抓到重點建議。
 
 - ✅ **8. 頁面標題修改**  
