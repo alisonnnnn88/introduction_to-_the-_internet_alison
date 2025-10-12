@@ -3,7 +3,7 @@
 - hw 1  [my website](https://alisonnnnn88.github.io/introduction_to-_the-_internet_alison/)
 - hw 2  [解說影片](https://youtu.be/0LIIIj9rs88)  | [AItest.tsx](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.tsx)
 <details>
-  <summary>AItest.tsx 變更說明 ▼</summary>
+  <summary>AItest.tsx 變更說明</summary>
 - ✅ 1. 函式名稱變更
 - 原本： AItest / 後來： HealthAssistant
 - 目的：將聊天機器人改為有主題性的「健康助手」，功能定位更清楚。
