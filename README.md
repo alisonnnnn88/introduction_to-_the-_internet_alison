@@ -7,7 +7,7 @@
 ---
 
 <details>
-<summary><strong>HW2 ：AItest.tsx 變更說明</strong></summary>
+<summary><strong>HW2：AItest.tsx 變更說明</strong></summary>
 
 <br>
 
@@ -54,15 +54,14 @@
 
 ### 功能介紹
 
-1. 點選【🔥 熱門電影】→ 選擇類型 → 由 AI 推薦  
-2. 使用下方對話框自由提問，也可參考紫色按鈕的預設句
+1. 畫面上方可以點選【🔥 熱門電影】，讓使用者挑選想看的類型，點選後由 AI 為您解答此類型的熱門電影 
+2. 畫面下方有對話框，可以自行輸入文字詢問 AI 關於電影的問題，也可以參考紫色按鈕的問題，幫助使用者有更好的詢問方向
 
 ---
 
 ### 畫面設計
 
-- 暗色背景  
-- 黃/白文字呈現科技感  
+以暗色系呈現背景，黃色或白色顯示文字，展現一種科技感。
 
 ---
 
@@ -72,16 +71,16 @@
 <img width="664" src="https://github.com/user-attachments/assets/10c2f70b-bc30-4513-b35b-ba83a4138b0d" />  
 <img width="646" src="https://github.com/user-attachments/assets/dd12d3a7-b507-48fb-bfaf-7a6f4120bb0c" />
 
-#### ✅ 支援 Markdown 顯示（粗體/表情）  
+#### ✅ 安裝 ReactMarkdown：支援 AI 回應以粗體或表情符號標示重點 
 <img width="1856" src="https://github.com/user-attachments/assets/e93d1eec-e686-4199-9b39-1ac7f61a8a00" />
 
-#### ✅ 對話框 Placeholder 提示  
+#### ✅ 對話框以灰字顯示，等待使用者輸入文字：以 placeholder 呈現灰字的部分（灰色為預設）  
 <img width="1847" src="https://github.com/user-attachments/assets/f255c03f-1a48-4ef2-b831-af860cb0d52f" />
 
-#### ✅ 紫色按鈕範例提問設計  
+#### ✅ 以紫色按鈕提示使用者怎麼問 AI  
 <img width="1633" src="https://github.com/user-attachments/assets/cfe6b4ad-283e-4f3a-a557-db72cedf141f" />
 
-#### ✅ Loading 狀態顯示  
+#### ✅ 有成功出現 Loading 狀態  
 <img width="1847" src="https://github.com/user-attachments/assets/cc2dc6f1-6aca-42a0-bcb9-f0aad6090c35" />
 
 </details>
