@@ -7,19 +7,19 @@
 ---
 
 <details>
-<summary><strong>HW2 說明：健康助手 AI</strong></summary>
+<summary><strong>HW2 ：AItest.tsx 變更說明</strong></summary>
 
 <br>
 
 - ✅ **1. 函式名稱變更**  
   `AItest` → `HealthAssistant`  
-  目的：將聊天機器人改為「健康助手」，主題更明確
+  目的：將聊天機器人改為「健康助手」，功能定位更明確
 
 - ✅ **2. 預設提示變更**  
-  '台北旅遊' → '喝水和運動'  
+  '嗨！幫我測試一下台北旅遊的一日行程～' → '嗨！我今天需要記得喝水和運動～'  
 
 - ✅ **3. 初始歡迎語變更**  
-  'Gemini 小幫手' → '健康助手'
+  '👋 這裡是 Gemini 小幫手，有什麼想聊的？' → '👋 這裡是健康助手，我會幫你提醒喝水、運動等！'
 
 - ✅ **4. Markdown 支援改為使用 `react-markdown` 套件**  
   <img width="600" alt="image" src="https://github.com/user-attachments/assets/b068bb27-0989-492e-8a24-584a6c5a458e" />
@@ -28,20 +28,23 @@
   `import ReactMarkdown from 'react-markdown';`
 
 - ✅ **6. 修改提示句按鈕內容為健康主題**  
-  例如：喝水提醒、三餐建議、簡單運動計畫
+ 原本： 今天台北有什麼免費展覽？/幫我把這段英文翻成中文：Hello from Taipei!/寫一首關於捷運的短詩 → 後來： 今天需要喝水提醒/請建議我一天三餐/幫我安排一個簡單的運動計劃
+ 目的：更貼近健康主題，也更讓使用者知道怎麼問 AI 健康助手。
 
 - ✅ **7. 加入 emoji 字型**  
   <img width="600" alt="image" src="https://github.com/user-attachments/assets/c49e30b6-a691-4b00-a5e4-e96a476f8402" />
+  目的：使用表情符號清楚標示重點文字，讓使用者快速抓到重點建議。
 
 - ✅ **8. 頁面標題修改**  
   `Gemini Chat` → `健康助手（Gemini API）`
+  目的：在網頁最上面清楚標示 AI 助手名稱。
 
 </details>
 
 ---
 
 <details>
-<summary><strong>HW3 說明：電影小高手 AI</strong></summary>
+<summary><strong>HW3 Demo 說明</strong></summary>
 
 <br>
 
@@ -49,25 +52,25 @@
 
 ---
 
-### 📌 功能介紹
+### 功能介紹
 
 1. 點選【🔥 熱門電影】→ 選擇類型 → 由 AI 推薦  
 2. 使用下方對話框自由提問，也可參考紫色按鈕的預設句
 
 ---
 
-### 🖼 畫面設計
+### 畫面設計
 
 - 暗色背景  
 - 黃/白文字呈現科技感  
 
 ---
 
-### 🔧 功能實作截圖
+### 功能實作截圖
 
 #### ✅ 熱門電影可篩選類型  
-<img width="864" src="https://github.com/user-attachments/assets/10c2f70b-bc30-4513-b35b-ba83a4138b0d" />  
-<img width="846" src="https://github.com/user-attachments/assets/dd12d3a7-b507-48fb-bfaf-7a6f4120bb0c" />
+<img width="664" src="https://github.com/user-attachments/assets/10c2f70b-bc30-4513-b35b-ba83a4138b0d" />  
+<img width="646" src="https://github.com/user-attachments/assets/dd12d3a7-b507-48fb-bfaf-7a6f4120bb0c" />
 
 #### ✅ 支援 Markdown 顯示（粗體/表情）  
 <img width="1856" src="https://github.com/user-attachments/assets/e93d1eec-e686-4199-9b39-1ac7f61a8a00" />
