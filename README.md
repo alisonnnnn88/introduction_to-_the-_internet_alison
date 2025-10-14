@@ -2,7 +2,7 @@
 - 授課老師：蔡芸琤  
 - hw 1  [my website](https://alisonnnnn88.github.io/introduction_to-_the-_internet_alison/)
 - hw 2  [解說影片](https://youtu.be/0LIIIj9rs88) | [AItest.tsx](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.tsx)
-- hw 3  [解說影片](https://youtu.be/cJjc5HpTFEM) | [AItest.tsx](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.tsx)
+- hw 3  [解說影片](https://youtu.be/cJjc5HpTFEM) | [AItest.js](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.js) | [index.html](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/index.html) | [index.js](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/index.js)
 
 ---
 
