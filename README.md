@@ -89,11 +89,11 @@
 
 ### 安裝方式
 
-1.在 cmd 輸入 npx create-react-app@latest my-app 建立新的專案資料夾
-2.把作業一的 index.html 相關資料夾與檔案複製到新的專案資料夾的 public 資料夾
-3.把作業二的 AItest.tsx 轉成 AItest.js (程式碼修改可以問AI)
-4.修改 index.js 和 index.html
-index.html: 在想加連接 AI 的地方，找到程式碼，加 <div id='react root.....
+1. 在 cmd 輸入 npx create-react-app@latest my-app 建立新的專案資料夾
+2. 把作業一的 index.html 相關資料夾與檔案複製到新的專案資料夾的 public 資料夾
+3. 把作業二的 AItest.tsx 轉成 AItest.js (程式碼修改可以問AI)
+4. 修改 index.js 和 index.html/
+index.html: 在想加連接 AI 的地方，找到程式碼，加 <div id='react root...../
 index.js: 複製貼上老師的，把安裝重複的刪掉
 
 </details>
