@@ -3,7 +3,7 @@
 - hw 1  [my website](https://alisonnnnn88.github.io/introduction_to-_the-_internet_alison/)
 - hw 2  [解說影片](https://youtu.be/0LIIIj9rs88) | [AItest.tsx](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.tsx)
 - hw 3  [解說影片](https://youtu.be/cJjc5HpTFEM) | [AItest.js](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.js) | [index.html](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/index.html) | [index.js](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/index.js) | [新的repo](https://github.com/alisonnnnn88/app_website)
-- hw 4 [Render 網址](https://app-website-3.onrender.com/)
+- hw 4 [Render 網址](https://app-website-3.onrender.com/#ai)  |  [Vercel 網址](https://app-website-msiq.vercel.app/#ai)
 ---
 
 <details>
