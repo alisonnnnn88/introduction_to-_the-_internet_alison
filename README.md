@@ -4,6 +4,11 @@
 - hw 2  [解說影片](https://youtu.be/0LIIIj9rs88) | [AItest.tsx](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.tsx)
 - hw 3  [解說影片](https://youtu.be/cJjc5HpTFEM) | [AItest.js](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/AItest.js) | [index.html](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/index.html) | [index.js](https://github.com/alisonnnnn88/introduction_to-_the-_internet_alison/blob/main/index.js) | [新的repo](https://github.com/alisonnnnn88/app_website)
 - hw 4 [Render 網址](https://app-website-3.onrender.com/#ai)  |  [Vercel 網址](https://app-website-msiq.vercel.app/#ai)
+- 期末專題 美食推薦器
+組員:41371106h葉恩瑀 41371115h李嘉欣
+[期末專題 網頁連結](https://41371115h-dot.github.io/food/)
+[YOUTUBE連結](https://www.youtube.com/watch?v=PC909dVH8Oo)
+[期末專題 REPO連結](https://github.com/41371115h-dot/food/deployments)
 ---
 
 <details>
