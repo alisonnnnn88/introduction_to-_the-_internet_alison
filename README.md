@@ -8,7 +8,7 @@
 - 組員: 41371106h葉恩瑀 41371115h李嘉欣
 - [期末專題 網頁連結](https://41371115h-dot.github.io/food/)
 [YOUTUBE連結](https://www.youtube.com/watch?v=PC909dVH8Oo)
-[期末專題 REPO連結](https://github.com/41371115h-dot/food/deployments)
+[期末專題 REPO連結](https://github.com/41371115h-dot/food)
 ---
 
 <details>
